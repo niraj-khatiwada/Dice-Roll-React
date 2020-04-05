@@ -1,0 +1,16 @@
+.RollDice-Grid {
+  height: 60vh;
+  display: grid;
+  grid-template-columns: repeat(2, 20%);
+  justify-content: center;
+  align-content: center;
+  grid-area: 1rem;
+}
+
+.RollDice-Roll-Button {
+  padding: 1rem 3rem;
+  background-color: steelblue;
+  font-size: 1rem;
+  color: white;
+  border: none;
+}

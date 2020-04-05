@@ -1,8 +1,11 @@
 .Dice {
   font-size: 15rem;
   color: teal;
-  animation: DiceAnimation 0.2s 1 ease-in-out;
   transition: all 0.2s ease-in-out;
+}
+
+.rolling {
+  animation: DiceAnimation 0.2s 1 ease-in-out;
 }
 
 @keyframes DiceAnimation {

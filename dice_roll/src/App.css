@@ -1,8 +1,5 @@
 .App {
   text-align: center;
-  display: grid;
-  grid-template-columns: repeat(2, 15%);
-  justify-content: center;
 }
 
 .App-logo {
@@ -39,3 +36,4 @@
     transform: rotate(360deg);
   }
 }
+
