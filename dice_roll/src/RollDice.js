@@ -8,7 +8,7 @@ class RollDice extends Component {
     this.state = {
       dice1: 'one',
       dice2: 'one',
-      isRolling: 'notRolling',
+      isRolling: 'Roll',
     }
   }
   static defaultProps = {
@@ -25,11 +25,11 @@ class RollDice extends Component {
     this.setState({
       dice1: randDiceNum,
       dice2: randDiceNum2,
-      isRolling: 'rolling',
+      isRolling: 'Rolling',
     })
     setTimeout(() => {
-      return this.setState({ isRolling: 'noRolling' })
-    }, 500)
+      return this.setState({ isRolling: 'Roll' })
+    }, 200)
   }
 
   render = () => {
@@ -41,10 +41,10 @@ class RollDice extends Component {
         </div>
         <div>
           <button
-            className="RollDice-Roll-Button"
+            className={`RollDice-Roll-Button ${this.state.isRolling}-btn`}
             onClick={this.generateRandomDice}
           >
-            Roll
+            {this.state.isRolling}
           </button>
         </div>
       </div>

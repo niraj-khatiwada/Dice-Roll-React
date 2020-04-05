@@ -1,3 +1,4 @@
+
 .RollDice-Grid {
   height: 60vh;
   display: grid;
@@ -13,4 +14,8 @@
   font-size: 1rem;
   color: white;
   border: none;
+}
+
+.Rolling-btn {
+  background-color: black;
 }
