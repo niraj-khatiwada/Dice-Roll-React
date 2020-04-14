@@ -34,3 +34,9 @@
     transform: translateX(0px);
   }
 }
+
+@media screen and (max-width: 768px){
+  .Dice{
+    font-size: 10rem;
+  }
+}
